@@ -7,6 +7,7 @@ import WelcomePage from '@/views/Home/Welcome'
 import RolesList from '@/views/Home/Role'
 import PowerList from '@/views/Home/Power'
 import GoodsCategorise from '@/views/Home/Goods/Cate'
+import GoodsParams from '@/views/Home/Goods/Params'
 
 Vue.use(VueRouter)
 
@@ -41,9 +42,14 @@ const routes = [
       {
         path:'/roles',
         component:RolesList,
-      },{
+      },
+      {
         path:'/categories',
         component:GoodsCategorise
+      },
+      {
+        path:'/params',
+        component:GoodsParams
       }
     ]
   },

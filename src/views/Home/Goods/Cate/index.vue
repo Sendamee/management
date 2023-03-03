@@ -250,7 +250,6 @@ export default {
     },
     // 选择项发生改变出发此函数
     parentCateChanged() {
-     console.log(this.selectedKeys)
      if(this.selectedKeys.length > 0){
       //父级分类的id
       this.addCateDialogForm.cat_pid = this.selectedKeys[
