@@ -8,6 +8,8 @@ import RolesList from '@/views/Home/Role'
 import PowerList from '@/views/Home/Power'
 import GoodsCategorise from '@/views/Home/Goods/Cate'
 import GoodsParams from '@/views/Home/Goods/Params'
+import GoodsList from '@/views/Home/Goods/List'
+import AddPage from '@/views/Home/Goods/Add'
 
 Vue.use(VueRouter)
 
@@ -50,6 +52,14 @@ const routes = [
       {
         path:'/params',
         component:GoodsParams
+      },
+      {
+        path:'/goods',
+        component:GoodsList,
+      },
+      {
+        path:'/goods/add',
+        component:AddPage
       }
     ]
   },

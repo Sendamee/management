@@ -287,7 +287,9 @@ export default {
     },
     //展示编辑对话框
     editDialog(cate) {
+      console.log(cate)
       this.editDialogVisible = true;
+      
       this.editDialogForm = cate
       this.getCategoriseById(cate.cat_id)
     },
