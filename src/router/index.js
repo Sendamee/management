@@ -10,6 +10,7 @@ import GoodsCategorise from '@/views/Home/Goods/Cate'
 import GoodsParams from '@/views/Home/Goods/Params'
 import GoodsList from '@/views/Home/Goods/List'
 import AddPage from '@/views/Home/Goods/Add'
+import OrderPage from '@/views/Home/Order'
 
 Vue.use(VueRouter)
 
@@ -60,6 +61,10 @@ const routes = [
       {
         path:'/goods/add',
         component:AddPage
+      },
+      {
+        path:'/orders',
+        component:OrderPage
       }
     ]
   },
